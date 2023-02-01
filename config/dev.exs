@@ -6,6 +6,7 @@ config :pento, Pento.Repo,
   password: "postgres",
   hostname: "localhost",
   database: "pento_dev",
+  uploads_directory: "/home/samusz/git-repos/prog/elixir/pento/uploads",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
